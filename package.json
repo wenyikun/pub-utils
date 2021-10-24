@@ -1,0 +1,50 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "common functions",
+  "main": "dist/bundle.js",
+  "module": "es/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "types"
+  ],
+  "scripts": {
+    "build": "node build && rollup -c && tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenyikun/vwant.git"
+  },
+  "keywords": [
+    "utils",
+    "ts"
+  ],
+  "author": "wenyikun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenyikun/vwant/issues"
+  },
+  "homepage": "https://github.com/wenyikun/vwant#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@types/jest": "^27.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "core-js": "^3.18.3",
+    "vant": "^2.12.30"
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ]
+}

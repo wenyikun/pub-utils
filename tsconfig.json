@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./types",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitThis": false,
+    "types": [
+      "jest"
+    ],
+    "lib": [
+      "esnext",
+      "dom",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/*.ts"
+  ]
+}
