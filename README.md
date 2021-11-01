@@ -5,13 +5,13 @@
 ## 安装
 
 ```shell
-npm i --save-dev js-utils
+npm i --save-dev pub-utils
 ```
 
 ## 使用
 
 ```js
-import { inBrowser } from 'js-utils'
+import { inBrowser } from 'pub-utils'
 ```
 
 ## API
