@@ -1,4 +1,6 @@
-## js-utils 通用方法库
+## pub-utils 通用方法库
+
+*浏览器中使用的JavaScript通用方法。*
 
 #### 安装
 
