@@ -16,4 +16,4 @@ import { inBrowser } from 'js-utils'
 
 #### API
 
-![API](./js-utils.png)
+![API](https://res.vekun.com/uploads/js-utils-1635757382703.png)
