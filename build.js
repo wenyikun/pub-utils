@@ -4,7 +4,7 @@ const path = require('path')
 const dir = './src'
 const outDir = './es'
 
-// 判断是否存在es目录
+// 判断是否存在es目录.
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync('./es')
 }
